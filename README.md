@@ -31,9 +31,11 @@ L’idée est de permettre à une équipe ou un joueur de se **positionner par r
 .
 ├── README.md                   # Ce fichier
 ├── rapport/
-│   └── CR_Analyse_CS.pdf       # Compte rendu avec les visuels + analyse
+│   └── Pro match analysis and KPIS.pdf       # Compte rendu avec les visuels + analyse
 ├── scripts/
-│   ├── kpi_economie.py         # Analyse de l'économie
-│   ├── perf_joueurs.py         # Analyse individuelle
-│   ├── perf_equipes.py         # KPIs objectifs
-│   └── heatmaps.py             # Génération des heatmaps
+│   ├── commands.py             # fichier avec toutes les requetes sql
+│   ├── economy.py              # Analyse de l'économie
+│   ├── grenades.py             # Analyse d'utilitaire
+│   ├── heatmap.py              # Génération des heatmaps
+│   ├── indiv.py                # Analyse individuelle
+│   ├── objectives.py           # KPIs objectifs
