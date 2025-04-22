@@ -30,6 +30,8 @@ L’idée est de permettre à une équipe ou un joueur de se **positionner par r
 ```bash
 .
 ├── README.md                   # Ce fichier
+├── assets/
+│   └── inferno.png       # image utilisé dans heatmap.py
 ├── rapport/
 │   └── Pro match analysis and KPIS.pdf       # Compte rendu avec les visuels + analyse
 ├── scripts/
