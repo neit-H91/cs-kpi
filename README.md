@@ -21,8 +21,7 @@ L’idée est de permettre à une équipe ou un joueur de se **positionner par r
   - `psycopg2` pour la connexion PostgreSQL
 - **PostgreSQL** pour le stockage et les requêtes SQL
 - **CSDemoManager** pour l’extraction des données depuis les fichiers de démo
-- **Pandas / NumPy** (optionnel selon les fichiers)
-- Rapport rédigé en **LaTeX / Markdown → PDF**
+- **NumPy** (optionnel selon les fichiers)
 
 ---
 
@@ -33,12 +32,8 @@ L’idée est de permettre à une équipe ou un joueur de se **positionner par r
 ├── README.md                   # Ce fichier
 ├── rapport/
 │   └── CR_Analyse_CS.pdf       # Compte rendu avec les visuels + analyse
-├── sql/
-│   └── requetes_kpi.sql        # Requêtes SQL utilisées pour extraire les indicateurs
 ├── scripts/
 │   ├── kpi_economie.py         # Analyse de l'économie
 │   ├── perf_joueurs.py         # Analyse individuelle
 │   ├── perf_equipes.py         # KPIs objectifs
 │   └── heatmaps.py             # Génération des heatmaps
-└── data/
-    └── (structure DB + échantillons anonymisés)
